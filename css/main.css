@@ -556,10 +556,6 @@ video {
   display: flex;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-full {
   width: 100%;
 }
@@ -605,8 +601,18 @@ video {
   --tw-bg-opacity: 0.8;
 }
 
-.bg-artorias-image {
-  background-image: url(../img/artorias.jpg);
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-purple-500 {
+  --tw-gradient-from: #a855f7 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(168 85 247 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-pink-500 {
+  --tw-gradient-to: #ec4899 var(--tw-gradient-to-position);
 }
 
 .bg-cover {
@@ -623,4 +629,42 @@ video {
 
 .font-navigation {
   font-family: "Press Start 2P", system-ui;
+}
+
+@media (min-width: 768px) {
+  .md\:bg-artorias-image {
+    background-image: url(../img/artorias.jpg);
+  }
+
+  .md\:bg-cover {
+    background-size: cover;
+  }
+
+  .md\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:bg-artorias-image {
+    background-image: url(../img/artorias.jpg);
+  }
+
+  .lg\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:bg-artorias-image {
+    background-image: url(../img/artorias.jpg);
+  }
+
+  .xl\:bg-cover {
+    background-size: cover;
+  }
+
+  .xl\:bg-no-repeat {
+    background-repeat: no-repeat;
+  }
 }
