@@ -544,20 +544,82 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mb-10 {
+.m-auto {
+  margin: auto;
+}
+
+.m-3 {
+  margin: 0.75rem;
+}
+
+.m-5 {
+  margin: 1.25rem;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
   margin-bottom: 2.5rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .mt-10 {
   margin-top: 2.5rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.min-h-10 {
+  min-height: 2.5rem;
+}
+
+.w-\[97\%\] {
+  width: 97%;
+}
+
 .w-full {
   width: 100%;
+}
+
+.max-w-80 {
+  max-width: 20rem;
 }
 
 .flex-row {
@@ -580,21 +642,59 @@ video {
   justify-content: center;
 }
 
-.gap-32 {
-  gap: 8rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .rounded-lg {
   border-radius: 0.5rem;
 }
 
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-cyan-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 94 117 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-blue-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+}
+
+.bg-blue-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.bg-cyan-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 116 144 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-80 {
@@ -619,49 +719,73 @@ video {
   background-size: cover;
 }
 
-.bg-no-repeat {
-  background-repeat: no-repeat;
+.p-4 {
+  padding: 1rem;
 }
 
 .p-5 {
   padding: 1.25rem;
 }
 
-.font-navigation {
-  font-family: "Press Start 2P", system-ui;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-montserrat {
+  font-family: Montserrat, sans-serif;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:bg-cyan-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 116 144 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-red-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-red-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
+.hover\:opacity-50:hover {
+  opacity: 0.5;
 }
 
 @media (min-width: 768px) {
-  .md\:bg-artorias-image {
-    background-image: url(../img/artorias.jpg);
+  .md\:block {
+    display: block;
   }
 
-  .md\:bg-cover {
-    background-size: cover;
-  }
-
-  .md\:bg-no-repeat {
-    background-repeat: no-repeat;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:bg-artorias-image {
-    background-image: url(../img/artorias.jpg);
-  }
-
-  .lg\:bg-no-repeat {
-    background-repeat: no-repeat;
+  .md\:font-navigation {
+    font-family: "Press Start 2P", system-ui;
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:bg-artorias-image {
     background-image: url(../img/artorias.jpg);
-  }
-
-  .xl\:bg-cover {
-    background-size: cover;
   }
 
   .xl\:bg-no-repeat {

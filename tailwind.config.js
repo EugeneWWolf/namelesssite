@@ -8,6 +8,7 @@ module.exports = {
         },
         fontFamily: {
           'navigation': ['"Press Start 2P"', "system-ui"],
+          'montserrat': ["Montserrat", "sans-serif"],
         },
       },
     },
