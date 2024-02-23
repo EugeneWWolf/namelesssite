@@ -594,6 +594,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mt-auto {
+  margin-top: auto;
+}
+
 .flex {
   display: flex;
 }
@@ -611,8 +615,25 @@ video {
   height: max-content;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .min-h-10 {
   min-height: 2.5rem;
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
+.min-h-fit {
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+
+.min-h-\[100vh\] {
+  min-height: 100vh;
 }
 
 .w-\[97\%\] {
@@ -643,6 +664,34 @@ video {
   max-width: 80rem;
 }
 
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-grow-0 {
+  flex-grow: 0;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.grow-\[2\] {
+  flex-grow: 2;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -657,6 +706,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.items-stretch {
+  align-items: stretch;
 }
 
 .justify-center {
@@ -795,6 +848,21 @@ video {
 
   .md\:font-navigation {
     font-family: "Press Start 2P", system-ui;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
